@@ -1,6 +1,6 @@
 # Ember
 
-A lightweight, high-performance animated wallpaper engine for macOS. Built with a strict focus on system efficiency — run stunning video wallpapers without draining your battery or hogging resources.
+A lightweight, high-performance animated wallpaper engine for macOS. Built with a strict focus on system efficiency, run stunning video wallpapers without draining your battery or hogging resources.
 
 ## Overview
 
@@ -8,15 +8,15 @@ Ember uses exclusively hardware-accelerated video playback and smart power-savin
 
 ## Features
 
-- **Hardware-Accelerated Playback** — `AVPlayer` and `AVPlayerLayer` for seamless `.mp4` video looping
-- **True Desktop Integration** — Renders behind Finder icons, spans the full screen, supports multi-monitor setups
-- **Smart Power Management** — Automatically pauses playback when:
+- **Hardware-Accelerated Playback**, `AVPlayer` and `AVPlayerLayer` for seamless `.mp4` video looping
+- **True Desktop Integration**, renders behind Finder icons, spans the full screen, supports multi-monitor setups
+- **Smart Power Management**, automatically pauses playback when:
   - Mac switches to battery power
   - A fullscreen app is detected
   - The screen is locked or the display sleeps
-- **Wallpaper Manager** — Scans `~/Movies/AnimatedWallpapers`, generates thumbnails, and caches metadata
-- **Minimal UI** — Clean SwiftUI interface for browsing, previewing, and applying wallpapers
-- **Low Resource Footprint** — Under ~100MB RAM, shared AVPlayer instances, limited redraws. No WebViews or manual frame rendering.
+- **Wallpaper Manager**, scans `~/Movies/AnimatedWallpapers`, generates thumbnails, and caches metadata
+- **Minimal UI**, clean SwiftUI interface for browsing, preveiwing, and applying wallpapers
+- **Low Resource Footprint**, under ~100MB RAM, shared AVPlayer instances, limited redraws. No WebViews or manual frame rendering.
 
 ## Resource Usage
 
@@ -28,9 +28,9 @@ PID     USER        PRI  NI   VIRT    RES     S   CPU%  MEM%   TIME+     COMMAND
 ## Tech Stack
 
 - **Swift**
-- **SwiftUI** — UI rendering
-- **AppKit** — Window and screen management
-- **AVFoundation** — Hardware-accelerated video playback
+- **SwiftUI**, UI rendering
+- **AppKit**, window and screen management
+- **AVFoundation**, hardware-accelerated video playback
 
 ## Architecture
 
@@ -94,4 +94,4 @@ Contributions are welcome. Feel free to open an issue or submit a pull request.
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License, see [LICENSE](LICENSE) for details.
