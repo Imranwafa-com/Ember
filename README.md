@@ -24,6 +24,7 @@ Ember uses exclusively hardware-accelerated video playback and smart power-savin
 PID     USER        PRI  NI   VIRT    RES     S   CPU%  MEM%   TIME+     COMMAND
 56398   imranwafa   17   0    415G    68416   S   0.1   0.2    0:00.24   /Users/imranwafa/Documents/Projects/Ember/build/Ember.app/Contents/MacOS/Ember
 ```
+^^^ Tested on an Apple M3 with 32 GB RAM. During normal use, average memory usage was ~22.3 MB with roughly 15 active threads.
 
 ## Tech Stack
 
@@ -32,7 +33,7 @@ PID     USER        PRI  NI   VIRT    RES     S   CPU%  MEM%   TIME+     COMMAND
 - **AppKit**, window and screen management
 - **AVFoundation**, hardware-accelerated video playback
 
-## Architecture
+## Architecturea
 
 ```
 Ember
@@ -95,3 +96,4 @@ Contributions are welcome. Feel free to open an issue or submit a pull request.
 ## License
 
 MIT License, see [LICENSE](LICENSE) for details.
+
